@@ -1,7 +1,7 @@
 Pasos:
 1- Vamos a necesitar un objeto, por ejemplo, un cubo con un color. Le agregamos un RigidBody.
-2- Dentro de el ObjetoVacio que esta dentro del personaje creamos otro ObjetoVacio pero que se ubique como un punto cerca de donde podria estar una mano(Player / InteractZone / HandPoint).
+2- Dentro de el ObjetoVacio que esta dentro del personaje creamos otro ObjetoVacio pero que se ubique como un punto cerca de donde podria estar una mano(Player / InteractZone / HandPoint).(Img 1)
 3- En mi caso cree dos Canva que me indican con que boton puedo agarrar los objetos.
 
-4- En InteractZone agrego el script "Agarrar Objetos" Y le asigno El componente HandPoint en el inspector. En el script se encuentra un GameObject llamado handPoint al que le debemos asignar el objeto. (Img 1)
-5- A los cubos les agrego el script "Interactable Object" al que le tengo que asignar los Canvas correspondientes. (Img 2)
+4- En InteractZone agrego el script "Agarrar Objetos" Y le asigno El componente HandPoint en el inspector. En el script se encuentra un GameObject llamado handPoint al que le debemos asignar el objeto. (Img 2)
+5- A los cubos les agrego el script "Interactable Object" al que le tengo que asignar los Canvas correspondientes. (Img 3)
