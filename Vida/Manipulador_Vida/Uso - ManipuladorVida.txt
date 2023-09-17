@@ -3,3 +3,4 @@ Pasos:
 2- A los rectangulos le añadimos el script "Manipulador Vida". (Img 1)
   a) Al rectangulo verde le ponemos Cantidad = 1 y Damage Time = 0.01.
   b) Al rectangulo verde le ponemos Cantidad = -10 y Damage Time = 0.25.
+3- Con esto la barra de vida bajara o subira dependiendo de que rectanmgulo estemos tocando
