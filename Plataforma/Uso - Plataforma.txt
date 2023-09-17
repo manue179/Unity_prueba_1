@@ -4,7 +4,7 @@ Pasos:
 3- Movemos los puntos a donde queramos que la plataforma vaya.
 4- En el rectangulo se nos debe haber creado un BoxCollider. Necesitamos hacer otro BoxCollider y ubicarlo sobre la plataforma. Donde el jugador se pondra.
   a) Importante: Al segundo BoxCollider sobre la plataforma le tengremos que asignar "Is Trigger" como verdadero.
-  b) Tambien se le debe agregar un tag como "MovingPlatform". Se lo podemos modificar en el script "MoveWithFloor".
-5- Agregamos el script "MoveWithFloor" a nuestro jugador y el script "PlatformContrellerTwo" al rectangulo que usamos como plataforma.
+  b) tambien se le debe agregar un tag como "MovingPlatform". Se lo podemos modificar en el script "MoveWithFloor".
+5- Agregamos el script "MoveWithFloor" a nuestro jugador y el script "PlatformContreller" al rectangulo que usamos como plataforma.
 6- En "PlatformContrellerTwo" debemos insertarle los puntos por los que pasara nuestra plataforma.
-7- En la jerarquia se deberia ver un ObjetoVacio que contenga el Rectangulo con el nombre de "Plataforma" y el tag "MovingPlatform" y los 3 Puntos.
+7- En la jerarquía se deberia ver un ObjetoVacio que contenga el Rectangulo con el nombre de "Plataforma" y el tag "MovingPlatform" y los 3 Puntos.
