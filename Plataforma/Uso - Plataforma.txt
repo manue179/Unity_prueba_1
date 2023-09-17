@@ -7,4 +7,4 @@ Pasos:
   b) Tambien se le debe agregar un tag como "MovingPlatform". Se lo podemos modificar en el script "MoveWithFloor".
 5- Agregamos el script "MoveWithFloor" a nuestro jugador y el script "PlatformContrellerTwo" al rectangulo que usamos como plataforma.
 6- En "PlatformContrellerTwo" debemos insertarle los puntos por los que pasara nuestra plataforma.
-
+7- En la jerarquia se deberia ver un ObjetoVacio que contenga el Rectangulo con el nombre de "Plataforma" y el tag "MovingPlatform" y los 3 Puntos.
