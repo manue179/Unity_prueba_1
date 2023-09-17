@@ -1,0 +1,5 @@
+Pasos:
+1- Para crear la barra de vida utilizaremos un Canva. Crearemos 3 Canvas. (Img 1)
+  - Un Borde para los borde de la barra de vida "bordesBarraVida" de color negro, una barra de vida "barraVida" de color rojo y otro que sea la vida "Vida" de color verde. El ultimo tendra un sprite de un cuadrado blanco de 32x32 (Img 2)
+2- Le agregamos el script "Vida Player" al jugador. establecemos la vida todal y le agregamos el canva "vida" al script(Img 3)
+3- Este script permite analizar la vida que tenemos y al hacernos daño esta puede bajar y tambien sube si nos curamos.
