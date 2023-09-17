@@ -7,3 +7,5 @@ Pasos:
 3- Agregamos el script "Inventario" al personaje y el script "Moneda" al objeto que usaremos como moneda.
 4- Mientras que en el inspector del personaje podemos ver la cantidad de monedas que agarro. En el inspector de la moneda podemos cambiar valor de cada moneda.
   - Modificando el codigo podemos asignarle un valor predeterminado a cada moneda.
+5- En el objeto que usaremos como moneda deberia estar en true el Trigger de su capsulle y su script "Moneda".
+6- En el player deberia estar su zona de interaccion con forma de cuadrado tambien con su Trigger en true.
