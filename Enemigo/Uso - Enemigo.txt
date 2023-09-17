@@ -2,3 +2,4 @@ Pasos:
 1- Creamos un objeto similar al jugador, como una capsula. Le agregaremos un SphereCollider y el script "Enemigoej".(Img 1)
 2- En el inspector le podemos camiar el rango de alerta, pero en la seccion Jugador, debemos mover al player desde la jerarquía.
 3- Cuando el jugador se acerque a este rango, el enemigo correra al jugador y cuando lo toque le generara daño.
+4- Opcional: El script "DanioEnemigo" se lo agregamos al personaje y sirve para indicarnos si nos hace daño.
