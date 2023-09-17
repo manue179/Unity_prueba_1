@@ -9,3 +9,4 @@ Pasos:
   - Modificando el codigo podemos asignarle un valor predeterminado a cada moneda.
 5- En el objeto que usaremos como moneda deberia estar en true el Trigger de su capsulle y su script "Moneda".
 6- En el player deberia estar su zona de interaccion con forma de cuadrado tambien con su Trigger en true.
+7- Cuando el jugador se acerque a las monedas las guardara y segun el valor de estas, en el inspector del personaje, se podra ver como la variable cantidad aumenta.
