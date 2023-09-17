@@ -1,0 +1,9 @@
+Pasos:
+1- Para esto debemos crear objetos que usaremos como "monedas" y le asignaremos un nombre y un color. En su Collider debemos marcar la opcion de "Is Trigger" como verdadera.
+2- Creamos un ObjetoVacio en el jugador. La utilizaremos como una zona de interaccion para el jugador donde al entrar en contacto con las monedas las agarrara. Le pondremos el tag "PlayerInteractionZone".
+  a) En este objeto vacio pondremos un cubo y eliminaremos todo de su inspector menos su BoxCollider. Luego la pondremos en un tamaño aceptable.
+  b) En su BoxCollider debemos marcar la opcion de "Is Trigger" como verdadera.
+  c) Deberia quedarnos un objeto vacio con forma de cuadrado.
+3- Agregamos el script "Inventario" al personaje y el script "Moneda" al objeto que usaremos como moneda.
+4- Mientras que en el inspector del personaje podemos ver la cantidad de monedas que agarro. En el inspector de la moneda podemos cambiar valor de cada moneda.
+  - Modificando el codigo podemos asignarle un valor predeterminado a cada moneda.
