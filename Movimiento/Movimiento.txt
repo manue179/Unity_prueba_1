@@ -1,0 +1,12 @@
+Pasos:
+1- Agregamos un Plano para que funcione como suelo para el personaje.
+2- Creamos un objeto que funcione como el personaje. En mi caso use una capsula.
+3- Le agregamos el componente de Character Controller.
+4- En el caso de la camara le agregue el componente de CineMachine.
+  a) En la parte superior encontramos (Windows / Package Manager / Unity Registry / CineMachine).
+  b) Le agregamos el componmente (CineMachine / FreeLook Camera) a nuestra camara.
+  c) La configuramos a nuestro parecer.
+  d) la agregamos como componente en "PlayerMovement" - (Main Camera) desde el inspector.
+5- Agregamos los Script "PlayerMovement" y "PushRigidBody" a nuestro personaje.
+    - PlayerMovement tiene funciones basicas como moverse, saltar y agacharse. En el inspector se puede modificar y ver sus variables.
+    - PushRigidBody puede mover ciertos objetos que contengan un RigidBody y posean un peso que pueda mover el personaje. Al igual que el otro script, sus variables se pueden cambiar en el inspector.
