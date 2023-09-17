@@ -2,3 +2,4 @@ Pasos:
 1- Creamos un rectangulo que usaremos como puerta("Puerta A") y un pivote que se encuentre en el centro de uno de los lados("Puerta AGen"). El pivote debe quedar como el "padre" del rectangulo.(Img 1) (Img 2)
 2- A "Puerta AGen" le agregamos un RigidBody y un Hinge Joint como se muestra en las imagenes. (Img 3) (Img 4).
 3- Esto lo repetimos con la "Puerta B"
+4- Con esto el personaje podra pasar entre las puertas.
