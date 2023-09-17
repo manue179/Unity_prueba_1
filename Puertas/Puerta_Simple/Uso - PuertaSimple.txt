@@ -1,0 +1,9 @@
+Pasos:
+1- creamos un rectangulo que usaremos como puerta("Cube"). A este le creamos un ObjetoVacio("PuertaGen") en su interior el cual colocaremos en el centro donte pivotara la puerta. Luego sacaremos este ObjetoVacio y lo ponemos como un "padre" del objeto que es la puerta. (Img 1)
+2- Luego fuera de este pivote, creamos un ubjeto que sea un BoxCollider("ActivaPuerta") con el cual el personaje va a interactuar.
+3- Tambien cree un Canva que me permita saber si estoy en la zona donde pueda interactuar.
+
+4- Al pivote le agregaremos un componente de animacion. La animacion de la puerta abriendose la cual se activara si interactuamos con la puerta.
+5- En "ActivaPuerta" Agregamos los scripts "Puerta General" y "Puertas". (Img 3)
+6- En "Puerta General" debemos agregar la animacion de la puerta y en "Puertas" agregamos el Canva.
+7- Al estar en la zona de interacion del jugador, se mostrara el Canva y podremos activar la animacion para abrir la puerta 
