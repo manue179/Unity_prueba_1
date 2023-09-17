@@ -1,0 +1,5 @@
+Pasos:
+1- Creamos un punto de Respawn a nuestro gusto.
+2- En el script "Respawn" podemos ajustar la posicion del respawn(linea 14).
+3- Cuando la barra de vida llega a 0 o cuando el jugador se cae del mapa. Se activa este script que ubica al jugador sobre el punto de spawn que pusimos, en este caso la plataforma.
+4- El Script lo agregamos a nuestro jugador.
